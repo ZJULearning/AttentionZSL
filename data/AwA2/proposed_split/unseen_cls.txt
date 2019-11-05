@@ -1,0 +1,10 @@
+bat
+blue+whale
+bobcat
+dolphin
+giraffe
+horse
+rat
+seal
+sheep
+walrus

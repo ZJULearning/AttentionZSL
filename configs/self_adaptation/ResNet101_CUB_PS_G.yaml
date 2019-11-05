@@ -1,0 +1,24 @@
+ckpt_name: "ResNet101_CUB_PS_G"
+db_name: "CUB"
+split: "PS"
+gpu: "3"
+model: "ResNet101"
+
+test:
+    batch_size: 32
+    setting: "g"
+    epoch: "all"
+    imload_mode: "resize_crop"
+    self_adaptions: 10
+    save_predictions: True
+
+train:
+    batch_size: 64
+    epochs: 15
+    lr_decay: 20
+    lr: 3e-5
+    beta: 1.0
+    log_inter: 64
+    ckpt_inter: 1
+    data_aug: "resize_random_crop"
+    triplet_mode: "batch_hard"
