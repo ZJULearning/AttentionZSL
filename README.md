@@ -1,4 +1,4 @@
-# Attribute Attention for in Zero-Shot Learning
+# Attribute Attention for Semantic Disambiguation in Zero-Shot Learning
 
 This repository contains the public release of the Python implementation of
 
